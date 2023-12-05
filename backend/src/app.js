@@ -19,6 +19,7 @@ app.use(cors({
     'http://localhost/productos',
     'http://127.0.0.1:5173',
     'https://apileblanc.onrender.com',
+    'https://leblanc-frontend.onrender.com',
    ],
     credentials: true
 }));
