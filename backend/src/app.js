@@ -18,8 +18,7 @@ app.use(cors({
     'http://localhost',
     'http://localhost/productos',
     'http://127.0.0.1:5173',
-    'https://apiproductos-0w34.onrender.com',
-    'https://frondend-y5y1.onrender.com',
+    'https://apileblanc.onrender.com',
    ],
     credentials: true
 }));
