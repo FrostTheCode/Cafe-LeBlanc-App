@@ -19,11 +19,6 @@ function NavBar() {
                             </div>
                         </li>
                         <li>
-                            <Link to='/products'
-                                  className="bg-zinc-500 rounded-sm"
-                            ><IoBag size={30}/></Link>
-                        </li>
-                        <li>
                             <Link to='/provedor' className="bg-amber-200 rounded-sm">
                             <IoBriefcase size={30}/>
                             </Link>
