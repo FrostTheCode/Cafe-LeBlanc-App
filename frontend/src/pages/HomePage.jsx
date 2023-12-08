@@ -4,8 +4,8 @@ function HomePage() {
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="bg-amber-200 max-w-md w-full p-10 rounded-md">
-        <h1 className="text-3xl font-bold my-3 text-center">Sistema de Productos</h1>
-        <h2 className="text-1xl font-bold my-3 text-center">Lenguajes Web</h2>
+        <h1 className="text-3xl font-bold my-3 text-center">Sistema de Cafeteria LeBlanc</h1>
+        <h2 className="text-1xl font-bold my-3 text-center">Un sistema de productos para cafeteria</h2>
 
       <div>
         <p className="gap-x-2 text-justify pt-5 mt-5 text-sm">

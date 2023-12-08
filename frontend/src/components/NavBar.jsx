@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useAuth } from '../context/AuthContext'
-import { IoPersonAdd, IoLogIn, IoBagAdd, IoLogOut, IoPerson, IoBusiness } from 'react-icons/io5'
+import { IoPersonAdd, IoLogIn, IoBagAdd, IoLogOut, IoPerson, IoBusiness, IoBag, IoBriefcase } from 'react-icons/io5'
 
 function NavBar() {
     const {isAuthenticated, logout, user} = useAuth();
@@ -19,6 +19,16 @@ function NavBar() {
                             </div>
                         </li>
                         <li>
+                            <Link to='/products'
+                                  className="bg-zinc-500 rounded-sm"
+                            ><IoBag size={30}/></Link>
+                        </li>
+                        <li>
+                            <Link to='/provedor' className="bg-amber-200 rounded-sm">
+                            <IoBriefcase size={30}/>
+                            </Link>
+                        </li>
+                        <li>
                             <Link to='/products/new'
                                   className="bg-zinc-500 rounded-sm"
                             ><IoBagAdd size={30}/></Link>
@@ -28,6 +38,7 @@ function NavBar() {
                             <IoBusiness size={30}/>
                             </Link>
                         </li>
+                        
                         <li>
                             <Link to='/' onClick={()=>{logout}}
                                   className="bg-zinc-500 rounded-sm"
